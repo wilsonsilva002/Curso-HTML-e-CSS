@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalizando link</title>
+
+    <style>
+/* seletores personalizados
+#  =id
+.  =class
+:  =pseudo-class
+:: =pseudo-element
+>  =children
+*/
+        body 
+        {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a 
+        {
+            color: rgb(229, 18, 18);            text-decoration: none;
+            font-weight:bold;
+        }
+        a:visited
+        {
+            color: rgb(168, 3, 3);
+            text-decoration: underline;
+        }
+        a:hover {
+            color: black;
+            text-decoration:underline;
+
+        }
+        a:active
+        {
+            color:yellow;
+            
+        }
+        .especial{
+            background-color:rgb(208, 191, 191);
+           
+
+        }
+      .especial:before {
+            content: "*"
+}
+        
+        .especial:after {
+            content:'*';
+            text-decoration:none;
+            font-weight: normal;
+            color: rgb(7, 6, 6);
+        }
+        
+        
+        
+
+
+    </style>
+    <ul>
+        <li><a href="http://www.uol.com" target="_blank" class="especial">pagina da uol</a></li>
+        <li><a href="http://www.google.com.br"target="_blank">pagina do google</a></li>
+        <li><a href="http://www.youtube.com.br"target="_blank">pagina do facebook</a></li>
+
+
+
+    </ul>
+</head>
+<body>
+    
+</body>
+</html>

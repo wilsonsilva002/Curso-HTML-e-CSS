@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagen dinamica</h1>
+    <p>tente abrir essas imagens em varios dispositivos </p>
+    <picture>
+     <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+     
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+     
+        <img src="imagens/foto-g.png" alt="foto flexivel">
+    </picture>
+    <h1>reproduzindo audio </h1>
+    <p>vammos adicionar audio ao seu site </p>
+   <audio preload="metadata" controls>
+   <source src="midia/Senhorita.mp3" type="audio/mpeg">
+   </audio>
+
+   
+</body>
+</html>

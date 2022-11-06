@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*
+em html e id = em css e #
+em html e class= em css e .
+*/
+body
+
+{
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    font-size: 2em;
+    font-weight: Medium;
+    font-style: italic;
+    color: rgba(8, 8, 8, 0.708);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+h1#principal
+{
+    text-align: center;
+    font-size:3em;
+    font-weight:700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#4978D6;
+}
+h2
+{
+    color: rgba(67, 46, 160, 0.712);
+    font-size: 1.5em;
+    font-family: 'Luc';
+       font-weight: Medium;
+}
+.basico
+{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: #384FC2;
+}
+.intermediario
+{
+color: black;
+text-align: center;
+font-size: 1.5em;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+background-color: #384FC2;
+
+}
+.avancado
+{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: #384FC2;    
+
+}
+p
+{
+    font-size: 17;
+    font-family: 'Lucida';
+    font-style: normal;
+    font-size-adjust: initial;
+}

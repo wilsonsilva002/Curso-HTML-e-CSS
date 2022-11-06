@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro simples de exercicio</title>
+</head>
+<body>
+    <h1>Preencha seus dados</h1>
+    <Form action="cadastro.ph" autocomplete="on" method="post">
+       <div>
+        <fieldset>
+        <legend>Dados Pessoais</legend>
+         <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="inome" id="inome" required  minlength="10"   maxlength="20"><br>
+         
+         </p>
+            <p>
+                <label for="isobre">Sobrenome:</label>
+                <input type="text" name="isobre" id="isobre" required minlength="10" maxlength="40">
+            </p>
+            <p>
+                <label for="inder">Endereço:</label>
+                <input type="text" name="inder" id="inder" required  maxlength="50" minlength="10"><label for="ncas">Numero</label>
+                <input type="number" name="ncas" id="ncas">
+            </p>
+            
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="itel" id="itel" required autocomplete="tel">
+            </p>
+            <p>
+                <label for="inasc">Data de Nacimento</label>
+                <input type="date">
+            </p>
+      </fildset>
+       </div>
+             <Fieldset>
+                <legend>Dados de Login</legend>
+                <p>
+                <label for="iusu"> Usuario</label>
+                <input type="text" name="usu" id="iusu" autocomplete="username" required minlength="6" maxlength="15" size="10" placeholder="min8">
+            </p>
+            <p>
+                <label for="isen">senha</label>
+                <input type="password" name="sen" id="isen" autocomplete="current-password" required minlength="8" maxlength="15" size="20" placeholder="min20">
+            </p>
+             </Fieldset>
+            
+            
+    
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+
+
+
+
+
+
+
+    </Form>
+</body>
+</html>
